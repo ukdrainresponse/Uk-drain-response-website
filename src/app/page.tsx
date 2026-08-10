@@ -81,20 +81,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="trust-row">
-              <div>
-                <strong>24/7</strong>
-                <span>Emergency support</span>
-              </div>
-              <div>
-                <strong>London</strong>
-                <span>Local coverage</span>
-              </div>
-              <div>
-                <strong>CCTV</strong>
-                <span>Drain investigation</span>
-              </div>
-            </div>
+           
           </div>
 
           <div className="hero-card">
@@ -107,53 +94,46 @@ export default function Home() {
       height="548"
     />
 
-    <div className="van-badge">
-      <span className="van-badge-icon">✓</span>
-      <div>
-        <strong>Professional drainage response</strong>
-        <span>London homes & businesses</span>
-      </div>
-    </div>
+    
   </div>
 </div>
    </div>
     </section>
 
-      <section className="trust-strip">
-        <div className="container trust-strip-inner">
-          <span>DOMESTIC</span>
-          <span>COMMERCIAL</span>
-          <span>EMERGENCY</span>
-          <span>CCTV SURVEYS</span>
-          <span>DRAIN JETTING</span>
-        </div>
-      </section>
+<section className="trust-strip" aria-label="UK Drain Response service benefits">
+  <div className="container trust-features">
+    <div className="trust-feature">
+      <span className="trust-icon">24/7</span>
+      <div>
+        <strong>Emergency Response</strong>
+        <span>Help when drainage problems can't wait</span>
+      </div>
+    </div>
 
-      <section className="section">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <div className="eyebrow">Our services</div>
-              <h2>Drainage services built around the problem.</h2>
-            </div>
-            <p>
-              From a simple blockage to a damaged underground pipe, we
-              investigate the cause and recommend the right solution.
-            </p>
-          </div>
+    <div className="trust-feature">
+      <span className="trust-icon">✓</span>
+      <div>
+        <strong>Professional Service</strong>
+        <span>Clear advice and practical solutions</span>
+      </div>
+    </div>
+    <div className="trust-feature">
+      <span className="trust-icon">⌖</span>
+      <div>
+        <strong>London Coverage</strong>
+        <span>Serving homes and businesses across London</span>
+      </div>
+    </div>
 
-          <div className="service-grid">
-            {services.map((service) => (
-              <Link className="service-card" href={service.href} key={service.href}>
-                <div className="service-icon">{service.icon}</div>
-                <h3>{service.title}</h3>
-                <p>{service.text}</p>
-                <span className="learn-more">Learn more →</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+    <div className="trust-feature">
+      <span className="trust-icon">↗</span>
+      <div>
+        <strong>Domestic & Commercial</strong>
+        <span>Drainage support for properties of all sizes</span>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="section section-dark">
         <div className="container split">
