@@ -98,30 +98,26 @@ export default function Home() {
           </div>
 
           <div className="hero-card">
-           <img
-  src="/images/uk-drain-response-van.webp"
-  alt="UK Drain Response drainage van"
-  className="hero-van"
-  width="1536"
-  height="548"
-/>
+<div className="hero-visual">
+    <img
+      src="/images/uk-drain-response-van.webp"
+      alt="UK Drain Response drainage van"
+      className="hero-van"
+      width="1536"
+      height="548"
+    />
 
-            <div className="hero-card-title">UK Drain Response</div>
-            <div className="hero-card-subtitle">
-              Professional drainage solutions
-            </div>
-
-            <div className="emergency-card">
-              <div className="emergency-icon">!</div>
-              <div>
-                <strong>Drain emergency?</strong>
-                <span>Speak to our team now</span>
-              </div>
-              <a href="tel:08000000000">Call</a>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="van-badge">
+      <span className="van-badge-icon">✓</span>
+      <div>
+        <strong>Professional drainage response</strong>
+        <span>London homes & businesses</span>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+    </section>
 
       <section className="trust-strip">
         <div className="container trust-strip-inner">
