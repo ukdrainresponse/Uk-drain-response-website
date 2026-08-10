@@ -98,14 +98,13 @@ export default function Home() {
           </div>
 
           <div className="hero-card">
-            <div className="shield">
-              <span>UK</span>
-              <div className="drain">
-                <i />
-                <i />
-                <i />
-              </div>
-            </div>
+           <img
+  src="/images/uk-drain-response-van.webp"
+  alt="UK Drain Response drainage van"
+  className="hero-van"
+  width="1536"
+  height="548"
+/>
 
             <div className="hero-card-title">UK Drain Response</div>
             <div className="hero-card-subtitle">
