@@ -134,7 +134,74 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section className="services-section" id="services">
+  <div className="container">
+    <div className="services-heading">
+      <span className="section-kicker">OUR DRAINAGE SERVICES</span>
 
+      <h2>
+        Drainage problems.
+        <br />
+        <span>Sorted properly.</span>
+      </h2>
+
+      <p>
+        From emergency blockages to CCTV inspections and drain repairs,
+        UK Drain Response provides professional drainage services across London.
+      </p>
+    </div>
+
+    <div className="services-grid">
+      <a href="/services/blocked-drains" className="service-card">
+        <div className="service-number">01</div>
+        <div className="service-icon">↘</div>
+        <h3>Blocked Drains</h3>
+        <p>Fast diagnosis and clearance for blocked drains at homes and commercial properties.</p>
+        <span className="service-link">View service →</span>
+      </a>
+
+      <a href="/services/emergency-drainage" className="service-card featured">
+        <div className="service-number">02</div>
+        <div className="service-icon">24/7</div>
+        <h3>Emergency Drainage</h3>
+        <p>Rapid drainage response when a blockage, overflow or drainage problem cannot wait.</p>
+        <span className="service-link">Get emergency help →</span>
+      </a>
+
+      <a href="/services/cctv-drain-surveys" className="service-card">
+        <div className="service-number">03</div>
+        <div className="service-icon">◎</div>
+        <h3>CCTV Drain Surveys</h3>
+        <p>Inspect underground drainage and identify blockages, damage and recurring problems.</p>
+        <span className="service-link">View service →</span>
+      </a>
+
+      <a href="/services/drain-jetting" className="service-card">
+        <div className="service-number">04</div>
+        <div className="service-icon">≋</div>
+        <h3>Drain Jetting</h3>
+        <p>High-pressure water jetting to clear grease, silt and stubborn deposits from drainage systems.</p>
+        <span className="service-link">View service →</span>
+      </a>
+
+      <a href="/services/drain-repairs" className="service-card">
+        <div className="service-number">05</div>
+        <div className="service-icon">◇</div>
+        <h3>Drain Repairs</h3>
+        <p>Practical repair solutions for cracked, damaged or collapsed drainage systems.</p>
+        <span className="service-link">View service →</span>
+      </a>
+
+      <a href="/services/commercial-drainage" className="service-card">
+        <div className="service-number">06</div>
+        <div className="service-icon">▦</div>
+        <h3>Commercial Drainage</h3>
+        <p>Responsive drainage services for businesses, landlords and commercial properties.</p>
+        <span className="service-link">View service →</span>
+      </a>
+    </div>
+  </div>
+</section>
       <section className="section section-dark">
         <div className="container split">
           <div>
