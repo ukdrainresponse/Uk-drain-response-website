@@ -202,32 +202,64 @@ export default function Home() {
     </div>
   </div>
 </section>
-      <section className="section section-dark">
-        <div className="container split">
-          <div>
-            <div className="eyebrow eyebrow-light">Why UK Drain Response</div>
-            <h2>Professional drainage without the runaround.</h2>
-            <p className="dark-copy">
-              Drainage problems can quickly become disruptive. Our approach
-              is simple: respond quickly, identify the problem properly and
-              explain the work before we carry it out.
-            </p>
 
-            <Link className="button button-light" href="/about">
-              About UK Drain Response →
-            </Link>
-          </div>
+{/* Why Choose Us */}
+<section className="why-section">
+  <div className="container">
+    <div className="why-heading">
+      <span className="section-label">WHY UK DRAIN RESPONSE</span>
 
-          <div className="benefit-list">
-            {benefits.map((benefit) => (
-              <div className="benefit" key={benefit}>
-                <span>✓</span>
-                <strong>{benefit}</strong>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <h2>
+        Professional drainage help
+        <br />
+        <span>when you need it.</span>
+      </h2>
+
+      <p>
+        From urgent blockages to planned drainage work, we provide
+        practical solutions for homes and businesses across London.
+      </p>
+    </div>
+
+    <div className="why-grid">
+      <div className="why-card">
+        <div className="why-icon">24/7</div>
+        <h3>24/7 Response</h3>
+        <p>
+          Drainage problems can happen at any time. Our team is available
+          when you need help.
+        </p>
+      </div>
+
+      <div className="why-card">
+        <div className="why-icon">✓</div>
+        <h3>Professional Service</h3>
+        <p>
+          Straightforward advice and practical drainage solutions for
+          domestic and commercial properties.
+        </p>
+      </div>
+
+      <div className="why-card">
+        <div className="why-icon">◎</div>
+        <h3>Specialist Equipment</h3>
+        <p>
+          Professional equipment for drain clearing, CCTV inspections,
+          jetting and drainage repairs.
+        </p>
+      </div>
+
+      <div className="why-card">
+        <div className="why-icon">↗</div>
+        <h3>London Coverage</h3>
+        <p>
+          Serving homes, landlords and businesses across London with a
+          responsive drainage service.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="section">
         <div className="container">
@@ -269,42 +301,65 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="location-section">
-        <div className="container location-inner">
-          <div>
-            <div className="eyebrow">London drainage services</div>
-            <h2>Local drainage help across London.</h2>
-            <p>
-              We're starting in London and building a detailed local service
-              network. Our area pages will provide genuinely local information
-              rather than duplicated location content.
-            </p>
-          </div>
+<section className="location-section">
+  <div className="container location-layout">
+    <div className="location-copy">
+      <div className="eyebrow">Drainage services across London</div>
 
-          <Link className="button button-primary" href="/areas/london">
-            Explore London services →
-          </Link>
-        </div>
-      </section>
+      <h2>Local drainage help across London.</h2>
 
-      <section className="cta-section">
-        <div className="container cta-inner">
-          <div>
-            <div className="eyebrow eyebrow-light">Need help?</div>
-            <h2>Got a drainage problem?</h2>
-            <p>Speak to UK Drain Response and tell us what is happening.</p>
-          </div>
+      <p>
+        UK Drain Response provides professional drainage services for homes,
+        landlords and businesses across London, including emergency drain
+        unblocking, CCTV surveys, drain jetting and drainage repairs.
+      </p>
 
-          <div className="cta-actions">
-            <a className="button button-orange" href="tel:08000000000">
-              Call 0800 XXX XXXX
-            </a>
-            <Link className="button button-outline-light" href="/contact">
-              Request a quote
-            </Link>
-          </div>
-        </div>
-      </section>
+      <Link className="button button-primary" href="/areas/london">
+        Explore London services →
+      </Link>
+    </div>
+
+    <div className="location-links">
+      <Link href="/areas/central-london">Central London <span>→</span></Link>
+      <Link href="/areas/north-london">North London <span>→</span></Link>
+      <Link href="/areas/south-london">South London <span>→</span></Link>
+      <Link href="/areas/east-london">East London <span>→</span></Link>
+      <Link href="/areas/west-london">West London <span>→</span></Link>
+      <Link href="/areas/london">View all London areas <span>→</span></Link>
+    </div>
+  </div>
+</section>
+
+      <section className="final-cta">
+  <div className="container final-cta-inner">
+    <div>
+      <div className="eyebrow eyebrow-light">24/7 drainage response</div>
+
+      <h2>Need a drainage specialist?</h2>
+
+      <p>
+        Speak to UK Drain Response for fast, professional drainage help
+        across London.
+      </p>
+    </div>
+
+    <div className="final-cta-actions">
+      <a
+        className="button button-orange"
+        href="tel:08000000000"
+      >
+        Call now →
+      </a>
+
+      <Link
+        className="button button-outline-light"
+        href="/contact"
+      >
+        Request a quote
+      </Link>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
