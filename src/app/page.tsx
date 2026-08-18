@@ -4,7 +4,7 @@ const services = [
   {
     title: "Emergency Drain Unblocking",
     text: "Fast help for blocked drains, toilets, sinks and external drainage problems.",
-    href: "/services/emergency-drain-unblocking",
+    href: "/drain-unblocking",
     icon: "🚨",
   },
   {
@@ -152,7 +152,7 @@ export default function Home() {
     </div>
 
     <div className="services-grid">
-      <a href="/services/blocked-drains" className="service-card">
+      <a href="/drain-unblocking" className="service-card">
         <div className="service-number">01</div>
         <div className="service-icon">↘</div>
         <h3>Blocked Drains</h3>

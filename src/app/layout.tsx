@@ -63,7 +63,7 @@ export default function RootLayout({
 
             <div>
               <h3>Services</h3>
-              <Link href="/services/emergency-drain-unblocking">
+              <Link href="/drain-unblocking">
                 Drain Unblocking
               </Link>
               <Link href="/services/cctv-drain-surveys">
