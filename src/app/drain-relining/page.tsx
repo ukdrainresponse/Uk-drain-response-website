@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Drain Unblocking | UK Drain Response",
+  title: "Drain Relining | UK Drain Response",
   description:
-    "Fast, reliable drain unblocking from UK Drain Response for blocked toilets, sinks, gullies and underground drains.",
+    "Professional drain relining services from UK Drain Response. Repair cracked and damaged drains from inside the pipe with minimal disruption.",
 };
 
-export default function DrainUnblockingPage() {
+export default function DrainReliningPage() {
   return (
     <main>
       {/* HERO */}
@@ -18,13 +18,12 @@ export default function DrainUnblockingPage() {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
-              Fast Drain Unblocking
+              Professional Drain Relining
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-              Blocked drain, toilet, sink or gully? UK Drain Response can help
-              diagnose the problem, clear the blockage and get your drainage
-              flowing properly again.
+              Drain relining can repair cracked or damaged pipework from inside
+              the drain, often avoiding the need for disruptive excavation.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -32,7 +31,7 @@ export default function DrainUnblockingPage() {
                 href="/contact"
                 className="rounded-lg bg-orange-500 px-6 py-3 text-center font-bold text-white transition hover:bg-orange-600"
               >
-                Request Drain Unblocking
+                Request Drain Relining
               </Link>
 
               <a
@@ -52,55 +51,56 @@ export default function DrainUnblockingPage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="font-semibold text-[#0f766e]">
-                Drain Unblocking Specialists
+                No-Dig Drain Repair
               </p>
 
               <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                Clear Blocked Drains Quickly and Properly
+                Repair Damaged Drains With Less Disruption
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
-                A blocked drain can cause slow drainage, unpleasant smells,
-                overflowing water and disruption around your property.
+                Traditional drain repairs can sometimes require excavation of
+                driveways, gardens, paths or other surfaces. Where suitable,
+                drain relining provides an alternative by repairing the pipe
+                internally.
               </p>
 
               <p className="mt-4 text-lg leading-8 text-slate-600">
-                UK Drain Response can identify the likely cause of the blockage
-                and use the appropriate method to clear it. Where needed, we can
-                also recommend further investigation if the blockage keeps
-                returning.
+                A specialist liner is inserted into the damaged drain and cured
+                in position, creating a strong new internal surface within the
+                existing pipe.
               </p>
             </div>
 
             <div className="rounded-2xl bg-slate-100 p-8">
               <h3 className="text-2xl font-bold text-slate-900">
-                Common Blockage Problems
+                Drain Relining Can Help With
               </h3>
 
               <ul className="mt-6 space-y-4 text-slate-700">
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Blocked toilets
+                  Cracked drainage pipes
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Slow-draining sinks and basins
+                  Minor fractures in pipework
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Blocked outside gullies
+                  Leaking drain joints
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Overflowing drains
+                  Root-damaged drains
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Grease, silt and debris build-up
+                  Ageing underground drainage
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Repeated or recurring blockages
+                  Pipes beneath difficult-to-excavate areas
                 </li>
               </ul>
             </div>
@@ -108,55 +108,50 @@ export default function DrainUnblockingPage() {
         </div>
       </section>
 
-      {/* SERVICES */}
+      {/* BENEFITS */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="font-semibold text-[#0f766e]">
-              Drain Clearing Services
+              Why Choose Drain Relining?
             </p>
 
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              The Right Method for the Blockage
+              A Practical Alternative to Excavation
             </h2>
-
-            <p className="mt-4 text-lg text-slate-600">
-              Different drainage problems require different solutions, so we
-              assess the issue before deciding how best to clear it.
-            </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">🔧</div>
+              <div className="mb-5 text-4xl">🛠️</div>
               <h3 className="text-xl font-bold text-slate-900">
-                Drain Unblocking
+                Less Excavation
               </h3>
               <p className="mt-4 leading-7 text-slate-600">
-                Clearing everyday blockages affecting toilets, sinks, gullies
-                and underground drainage.
+                Suitable drains can be repaired internally without digging up
+                large areas of the property.
               </p>
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">💧</div>
+              <div className="mb-5 text-4xl">⏱️</div>
               <h3 className="text-xl font-bold text-slate-900">
-                High-Pressure Jetting
+                Reduced Disruption
               </h3>
               <p className="mt-4 leading-7 text-slate-600">
-                Powerful water jetting can remove stubborn deposits, grease,
-                silt and debris from drainage pipes.
+                Relining can often be completed with less disruption to
+                driveways, gardens, paths and commercial premises.
               </p>
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">📹</div>
+              <div className="mb-5 text-4xl">✓</div>
               <h3 className="text-xl font-bold text-slate-900">
-                CCTV Investigation
+                Strong Internal Repair
               </h3>
               <p className="mt-4 leading-7 text-slate-600">
-                Recurring blockages may require a CCTV survey to identify
-                damaged pipework or another underlying problem.
+                The liner creates a new internal pipe surface designed to seal
+                damaged sections and improve drainage performance.
               </p>
             </div>
           </div>
@@ -170,7 +165,7 @@ export default function DrainUnblockingPage() {
             <p className="font-semibold text-[#0f766e]">How It Works</p>
 
             <h2 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">
-              From Blockage to Clear Drain
+              Our Drain Relining Process
             </h2>
           </div>
 
@@ -180,11 +175,11 @@ export default function DrainUnblockingPage() {
                 1
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Assess
+                CCTV Survey
               </h3>
               <p className="mt-2 text-slate-600">
-                We establish where the blockage is and what symptoms you are
-                experiencing.
+                We inspect the drain to identify the location and extent of the
+                damage.
               </p>
             </div>
 
@@ -193,10 +188,11 @@ export default function DrainUnblockingPage() {
                 2
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Clear
+                Prepare the Pipe
               </h3>
               <p className="mt-2 text-slate-600">
-                The appropriate equipment is used to remove the blockage.
+                The drain is cleaned and prepared so the liner can be installed
+                correctly.
               </p>
             </div>
 
@@ -205,10 +201,11 @@ export default function DrainUnblockingPage() {
                 3
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Check
+                Install the Liner
               </h3>
               <p className="mt-2 text-slate-600">
-                We check that the drainage is flowing correctly after clearing.
+                The liner is positioned inside the damaged section of the
+                drainage pipe.
               </p>
             </div>
 
@@ -217,31 +214,30 @@ export default function DrainUnblockingPage() {
                 4
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Investigate if Needed
+                Final Inspection
               </h3>
               <p className="mt-2 text-slate-600">
-                If the blockage is recurring, further investigation may be
-                recommended.
+                The completed repair is checked to confirm the drain is clear
+                and functioning correctly.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CCTV CTA */}
+      {/* RELATED SERVICE */}
       <section className="bg-slate-100">
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
           <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10">
             <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
               <div>
                 <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-                  Does Your Drain Keep Blocking?
+                  Need the Damage Diagnosed First?
                 </h2>
 
                 <p className="mt-4 max-w-3xl text-slate-600">
-                  Repeated blockages can sometimes indicate damaged pipework,
-                  displaced joints, root intrusion or another issue inside the
-                  drain.
+                  A CCTV drain survey can determine whether relining is suitable
+                  or whether another repair method is required.
                 </p>
               </div>
 
@@ -260,12 +256,12 @@ export default function DrainUnblockingPage() {
       <section className="bg-[#082f49]">
         <div className="mx-auto max-w-7xl px-6 py-16 text-center lg:px-8">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Got a Blocked Drain?
+            Need Drain Relining?
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
-            Contact UK Drain Response for fast help with blocked drains,
-            toilets, sinks and gullies.
+            Contact UK Drain Response to arrange an inspection and find out
+            whether drain relining is suitable for your property.
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">

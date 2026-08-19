@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Drain Unblocking | UK Drain Response",
+  title: "Drain Jetting | UK Drain Response",
   description:
-    "Fast, reliable drain unblocking from UK Drain Response for blocked toilets, sinks, gullies and underground drains.",
+    "Professional high-pressure drain jetting from UK Drain Response for stubborn blockages, grease, silt and debris.",
 };
 
-export default function DrainUnblockingPage() {
+export default function DrainJettingPage() {
   return (
     <main>
       {/* HERO */}
@@ -18,13 +18,12 @@ export default function DrainUnblockingPage() {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
-              Fast Drain Unblocking
+              High-Pressure Drain Jetting
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-              Blocked drain, toilet, sink or gully? UK Drain Response can help
-              diagnose the problem, clear the blockage and get your drainage
-              flowing properly again.
+              Powerful drain jetting for stubborn blockages, grease, silt and
+              debris that ordinary drain clearing methods may not remove.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -32,7 +31,7 @@ export default function DrainUnblockingPage() {
                 href="/contact"
                 className="rounded-lg bg-orange-500 px-6 py-3 text-center font-bold text-white transition hover:bg-orange-600"
               >
-                Request Drain Unblocking
+                Request Drain Jetting
               </Link>
 
               <a
@@ -52,55 +51,54 @@ export default function DrainUnblockingPage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="font-semibold text-[#0f766e]">
-                Drain Unblocking Specialists
+                Powerful Drain Cleaning
               </p>
 
               <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                Clear Blocked Drains Quickly and Properly
+                Clear Stubborn Build-Up From Drainage Pipes
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
-                A blocked drain can cause slow drainage, unpleasant smells,
-                overflowing water and disruption around your property.
+                High-pressure drain jetting uses powerful water pressure to help
+                remove stubborn deposits from inside drainage pipes.
               </p>
 
               <p className="mt-4 text-lg leading-8 text-slate-600">
-                UK Drain Response can identify the likely cause of the blockage
-                and use the appropriate method to clear it. Where needed, we can
-                also recommend further investigation if the blockage keeps
-                returning.
+                It can be particularly effective where drains are affected by
+                grease, silt, sludge, scale and other debris that has built up
+                over time.
               </p>
             </div>
 
             <div className="rounded-2xl bg-slate-100 p-8">
               <h3 className="text-2xl font-bold text-slate-900">
-                Common Blockage Problems
+                Drain Jetting Can Help With
               </h3>
 
               <ul className="mt-6 space-y-4 text-slate-700">
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Blocked toilets
+                  Stubborn drain blockages
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Slow-draining sinks and basins
+                  Grease and fat deposits
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Blocked outside gullies
+                  Silt and sludge build-up
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Overflowing drains
+                  Debris inside drainage pipes
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Grease, silt and debris build-up
+                  Poor drainage flow
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Repeated or recurring blockages
+                  Recurring drainage problems
                 </li>
               </ul>
             </div>
@@ -108,55 +106,55 @@ export default function DrainUnblockingPage() {
         </div>
       </section>
 
-      {/* SERVICES */}
+      {/* BENEFITS */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="font-semibold text-[#0f766e]">
-              Drain Clearing Services
+              Why Use Drain Jetting?
             </p>
 
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              The Right Method for the Blockage
+              More Than Simply Breaking Through a Blockage
             </h2>
 
             <p className="mt-4 text-lg text-slate-600">
-              Different drainage problems require different solutions, so we
-              assess the issue before deciding how best to clear it.
+              Jetting can help clean the internal walls of drainage pipes while
+              removing deposits that restrict water flow.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">🔧</div>
-              <h3 className="text-xl font-bold text-slate-900">
-                Drain Unblocking
-              </h3>
-              <p className="mt-4 leading-7 text-slate-600">
-                Clearing everyday blockages affecting toilets, sinks, gullies
-                and underground drainage.
-              </p>
-            </div>
-
-            <div className="rounded-2xl bg-white p-8 shadow-sm">
               <div className="mb-5 text-4xl">💧</div>
               <h3 className="text-xl font-bold text-slate-900">
-                High-Pressure Jetting
+                Powerful Cleaning
               </h3>
               <p className="mt-4 leading-7 text-slate-600">
-                Powerful water jetting can remove stubborn deposits, grease,
-                silt and debris from drainage pipes.
+                High-pressure water can remove stubborn material from inside
+                drainage pipes.
               </p>
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">📹</div>
+              <div className="mb-5 text-4xl">⚙️</div>
               <h3 className="text-xl font-bold text-slate-900">
-                CCTV Investigation
+                Improved Drain Flow
               </h3>
               <p className="mt-4 leading-7 text-slate-600">
-                Recurring blockages may require a CCTV survey to identify
-                damaged pipework or another underlying problem.
+                Removing built-up deposits can help restore better flow through
+                the drainage system.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <div className="mb-5 text-4xl">🔍</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Further Investigation
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                If a blockage keeps returning after cleaning, a CCTV survey can
+                help identify an underlying defect.
               </p>
             </div>
           </div>
@@ -170,7 +168,7 @@ export default function DrainUnblockingPage() {
             <p className="font-semibold text-[#0f766e]">How It Works</p>
 
             <h2 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">
-              From Blockage to Clear Drain
+              Our Drain Jetting Process
             </h2>
           </div>
 
@@ -183,8 +181,8 @@ export default function DrainUnblockingPage() {
                 Assess
               </h3>
               <p className="mt-2 text-slate-600">
-                We establish where the blockage is and what symptoms you are
-                experiencing.
+                We establish the likely location and nature of the drainage
+                problem.
               </p>
             </div>
 
@@ -193,10 +191,11 @@ export default function DrainUnblockingPage() {
                 2
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Clear
+                Access
               </h3>
               <p className="mt-2 text-slate-600">
-                The appropriate equipment is used to remove the blockage.
+                Suitable access is identified so the jetting equipment can be
+                introduced safely.
               </p>
             </div>
 
@@ -205,10 +204,11 @@ export default function DrainUnblockingPage() {
                 3
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Check
+                Jet the Drain
               </h3>
               <p className="mt-2 text-slate-600">
-                We check that the drainage is flowing correctly after clearing.
+                High-pressure water is used to clear the obstruction and clean
+                the pipework.
               </p>
             </div>
 
@@ -217,11 +217,11 @@ export default function DrainUnblockingPage() {
                 4
               </div>
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Investigate if Needed
+                Check Flow
               </h3>
               <p className="mt-2 text-slate-600">
-                If the blockage is recurring, further investigation may be
-                recommended.
+                The drain is checked afterwards to make sure water is flowing
+                correctly.
               </p>
             </div>
           </div>
@@ -235,13 +235,13 @@ export default function DrainUnblockingPage() {
             <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
               <div>
                 <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-                  Does Your Drain Keep Blocking?
+                  Does the Blockage Keep Coming Back?
                 </h2>
 
                 <p className="mt-4 max-w-3xl text-slate-600">
-                  Repeated blockages can sometimes indicate damaged pipework,
-                  displaced joints, root intrusion or another issue inside the
-                  drain.
+                  Repeated drainage problems may indicate damaged pipework,
+                  displaced joints, root intrusion or another issue that needs
+                  further investigation.
                 </p>
               </div>
 
@@ -260,12 +260,12 @@ export default function DrainUnblockingPage() {
       <section className="bg-[#082f49]">
         <div className="mx-auto max-w-7xl px-6 py-16 text-center lg:px-8">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Got a Blocked Drain?
+            Need Your Drains Jetted?
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
-            Contact UK Drain Response for fast help with blocked drains,
-            toilets, sinks and gullies.
+            Contact UK Drain Response for help with stubborn blockages and
+            heavily restricted drainage.
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">

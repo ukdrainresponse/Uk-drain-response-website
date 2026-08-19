@@ -160,7 +160,7 @@ export default function Home() {
         <span className="service-link">View service →</span>
       </a>
 
-      <a href="/services/emergency-drainage" className="service-card featured">
+      <a href="/emergency-drainage" className="service-card featured">
         <div className="service-number">02</div>
         <div className="service-icon">24/7</div>
         <h3>Emergency Drainage</h3>
@@ -168,7 +168,7 @@ export default function Home() {
         <span className="service-link">Get emergency help →</span>
       </a>
 
-      <a href="/services/cctv-drain-surveys" className="service-card">
+      <a href="/cctv-drain-surveys" className="service-card">
         <div className="service-number">03</div>
         <div className="service-icon">◎</div>
         <h3>CCTV Drain Surveys</h3>
@@ -176,7 +176,7 @@ export default function Home() {
         <span className="service-link">View service →</span>
       </a>
 
-      <a href="/services/drain-jetting" className="service-card">
+      <a href="/drain-jetting" className="service-card">
         <div className="service-number">04</div>
         <div className="service-icon">≋</div>
         <h3>Drain Jetting</h3>
@@ -184,7 +184,7 @@ export default function Home() {
         <span className="service-link">View service →</span>
       </a>
 
-      <a href="/services/drain-repairs" className="service-card">
+      <a href="/drain-repairs" className="service-card">
         <div className="service-number">05</div>
         <div className="service-icon">◇</div>
         <h3>Drain Repairs</h3>
@@ -192,7 +192,7 @@ export default function Home() {
         <span className="service-link">View service →</span>
       </a>
 
-      <a href="/services/commercial-drainage" className="service-card">
+      <a href="/commercial-drainage" className="service-card">
         <div className="service-number">06</div>
         <div className="service-icon">▦</div>
         <h3>Commercial Drainage</h3>

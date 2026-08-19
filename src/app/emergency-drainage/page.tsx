@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Drain Unblocking | UK Drain Response",
+  title: "Emergency Drainage | UK Drain Response",
   description:
-    "Fast, reliable drain unblocking from UK Drain Response for blocked toilets, sinks, gullies and underground drains.",
+    "Fast emergency drainage response from UK Drain Response for blocked, overflowing and urgent drainage problems.",
 };
 
-export default function DrainUnblockingPage() {
+export default function EmergencyDrainagePage() {
   return (
     <main>
       {/* HERO */}
@@ -18,13 +18,12 @@ export default function DrainUnblockingPage() {
             </p>
 
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
-              Fast Drain Unblocking
+              Emergency Drainage
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-              Blocked drain, toilet, sink or gully? UK Drain Response can help
-              diagnose the problem, clear the blockage and get your drainage
-              flowing properly again.
+              Urgent drainage problem? Get help with blocked, overflowing or
+              backed-up drains when the problem cannot wait.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -32,7 +31,7 @@ export default function DrainUnblockingPage() {
                 href="/contact"
                 className="rounded-lg bg-orange-500 px-6 py-3 text-center font-bold text-white transition hover:bg-orange-600"
               >
-                Request Drain Unblocking
+                Request Emergency Help
               </Link>
 
               <a
@@ -52,39 +51,43 @@ export default function DrainUnblockingPage() {
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="font-semibold text-[#0f766e]">
-                Drain Unblocking Specialists
+                Urgent Drainage Support
               </p>
 
               <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                Clear Blocked Drains Quickly and Properly
+                When a Drainage Problem Cannot Wait
               </h2>
 
               <p className="mt-6 text-lg leading-8 text-slate-600">
-                A blocked drain can cause slow drainage, unpleasant smells,
-                overflowing water and disruption around your property.
+                Some drainage problems need dealing with quickly. An overflowing
+                drain, blocked toilet or backed-up drainage system can cause
+                disruption and potentially damage the surrounding property.
               </p>
 
               <p className="mt-4 text-lg leading-8 text-slate-600">
-                UK Drain Response can identify the likely cause of the blockage
-                and use the appropriate method to clear it. Where needed, we can
-                also recommend further investigation if the blockage keeps
-                returning.
+                UK Drain Response can help diagnose urgent drainage problems,
+                clear blockages and identify whether further investigation or
+                repair work is required.
               </p>
             </div>
 
             <div className="rounded-2xl bg-slate-100 p-8">
               <h3 className="text-2xl font-bold text-slate-900">
-                Common Blockage Problems
+                Emergency Problems We Can Help With
               </h3>
 
               <ul className="mt-6 space-y-4 text-slate-700">
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Blocked toilets
+                  Overflowing drains
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Slow-draining sinks and basins
+                  Severely blocked toilets
+                </li>
+                <li className="flex gap-3">
+                  <span className="font-bold text-[#14b8a6]">✓</span>
+                  Backed-up drainage
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
@@ -92,15 +95,11 @@ export default function DrainUnblockingPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Overflowing drains
+                  Waste water not draining away
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold text-[#14b8a6]">✓</span>
-                  Grease, silt and debris build-up
-                </li>
-                <li className="flex gap-3">
-                  <span className="font-bold text-[#14b8a6]">✓</span>
-                  Repeated or recurring blockages
+                  Sudden or serious drainage problems
                 </li>
               </ul>
             </div>
@@ -108,55 +107,61 @@ export default function DrainUnblockingPage() {
         </div>
       </section>
 
-      {/* SERVICES */}
+      {/* RESPONSE */}
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="font-semibold text-[#0f766e]">
-              Drain Clearing Services
+              Emergency Drainage Response
             </p>
 
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              The Right Method for the Blockage
+              Diagnose. Clear. Get Things Flowing Again.
             </h2>
 
             <p className="mt-4 text-lg text-slate-600">
-              Different drainage problems require different solutions, so we
-              assess the issue before deciding how best to clear it.
+              The priority with an urgent drainage problem is to establish what
+              has happened and take the appropriate action.
             </p>
           </div>
 
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">🔧</div>
+              <div className="mb-5 text-4xl">⚡</div>
+
               <h3 className="text-xl font-bold text-slate-900">
-                Drain Unblocking
+                Urgent Response
               </h3>
+
               <p className="mt-4 leading-7 text-slate-600">
-                Clearing everyday blockages affecting toilets, sinks, gullies
-                and underground drainage.
+                Help for drainage problems that require prompt attention rather
+                than waiting for a routine appointment.
               </p>
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm">
               <div className="mb-5 text-4xl">💧</div>
+
               <h3 className="text-xl font-bold text-slate-900">
-                High-Pressure Jetting
+                Blockage Clearance
               </h3>
+
               <p className="mt-4 leading-7 text-slate-600">
-                Powerful water jetting can remove stubborn deposits, grease,
-                silt and debris from drainage pipes.
+                Appropriate drain clearing methods can be used to remove the
+                obstruction and restore drainage flow.
               </p>
             </div>
 
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <div className="mb-5 text-4xl">📹</div>
+              <div className="mb-5 text-4xl">🔍</div>
+
               <h3 className="text-xl font-bold text-slate-900">
-                CCTV Investigation
+                Further Investigation
               </h3>
+
               <p className="mt-4 leading-7 text-slate-600">
-                Recurring blockages may require a CCTV survey to identify
-                damaged pipework or another underlying problem.
+                If the problem indicates damaged drainage, further investigation
+                can identify what repair work may be needed.
               </p>
             </div>
           </div>
@@ -170,7 +175,7 @@ export default function DrainUnblockingPage() {
             <p className="font-semibold text-[#0f766e]">How It Works</p>
 
             <h2 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">
-              From Blockage to Clear Drain
+              From Emergency Call to Solution
             </h2>
           </div>
 
@@ -179,12 +184,14 @@ export default function DrainUnblockingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#082f49] text-xl font-bold text-white">
                 1
               </div>
+
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Assess
+                Tell Us the Problem
               </h3>
+
               <p className="mt-2 text-slate-600">
-                We establish where the blockage is and what symptoms you are
-                experiencing.
+                Let us know what is happening and where the drainage problem is
+                located.
               </p>
             </div>
 
@@ -192,11 +199,14 @@ export default function DrainUnblockingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#082f49] text-xl font-bold text-white">
                 2
               </div>
+
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Clear
+                Assess
               </h3>
+
               <p className="mt-2 text-slate-600">
-                The appropriate equipment is used to remove the blockage.
+                The drainage problem is assessed to determine the likely cause
+                and appropriate equipment.
               </p>
             </div>
 
@@ -204,11 +214,14 @@ export default function DrainUnblockingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#082f49] text-xl font-bold text-white">
                 3
               </div>
+
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Check
+                Clear the Problem
               </h3>
+
               <p className="mt-2 text-slate-600">
-                We check that the drainage is flowing correctly after clearing.
+                Where possible, the blockage or obstruction is cleared and
+                drainage flow restored.
               </p>
             </div>
 
@@ -216,40 +229,41 @@ export default function DrainUnblockingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#082f49] text-xl font-bold text-white">
                 4
               </div>
+
               <h3 className="mt-5 text-lg font-bold text-slate-900">
-                Investigate if Needed
+                Check & Advise
               </h3>
+
               <p className="mt-2 text-slate-600">
-                If the blockage is recurring, further investigation may be
-                recommended.
+                The drainage is checked and any further investigation or repair
+                requirements can be explained.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CCTV CTA */}
+      {/* RELATED SERVICE */}
       <section className="bg-slate-100">
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
           <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10">
             <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
               <div>
                 <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-                  Does Your Drain Keep Blocking?
+                  Is Your Drain Completely Blocked?
                 </h2>
 
                 <p className="mt-4 max-w-3xl text-slate-600">
-                  Repeated blockages can sometimes indicate damaged pipework,
-                  displaced joints, root intrusion or another issue inside the
-                  drain.
+                  Our drain unblocking service covers blocked toilets, gullies
+                  and underground drainage systems.
                 </p>
               </div>
 
               <Link
-                href="/cctv-drain-surveys"
+                href="/drain-unblocking"
                 className="rounded-lg bg-[#0f766e] px-6 py-3 text-center font-bold text-white transition hover:bg-[#115e59]"
               >
-                CCTV Drain Surveys
+                Drain Unblocking
               </Link>
             </div>
           </div>
@@ -260,12 +274,12 @@ export default function DrainUnblockingPage() {
       <section className="bg-[#082f49]">
         <div className="mx-auto max-w-7xl px-6 py-16 text-center lg:px-8">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            Got a Blocked Drain?
+            Need Emergency Drainage Help?
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
-            Contact UK Drain Response for fast help with blocked drains,
-            toilets, sinks and gullies.
+            Contact UK Drain Response if you have an urgent blocked,
+            overflowing or backed-up drainage problem.
           </p>
 
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
