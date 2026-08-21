@@ -51,54 +51,65 @@ const benefits = [
 export default function Home() {
   return (
     <main>
-      <section className="hero">
-        <div className="container hero-grid">
-          <div className="hero-copy">
-            <div className="eyebrow">
-              <span className="status-dot" />
-              London drainage specialists
-            </div>
-
-            <h1>
-              Fast, reliable
-              <span> drainage solutions.</span>
-            </h1>
-
-            <p className="hero-text">
-              UK Drain Response provides professional drain unblocking,
-              CCTV surveys, jetting and drainage repairs for homes and
-              businesses across London.
-            </p>
-
-            <div className="hero-actions">
-              <a className="button button-primary" href="tel:08000000000">
-                Call for help
-                <span>→</span>
-              </a>
-
-              <Link className="button button-secondary" href="/contact">
-                Request a quote
-              </Link>
-            </div>
-
-           
-          </div>
-
-          <div className="hero-card">
-<div className="hero-visual">
-    <img
-      src="/images/uk-drain-response-van.webp"
-      alt="UK Drain Response drainage van"
-      className="hero-van"
-      width="1536"
-      height="548"
-    />
-
+     <section className="bg-[#082f49] text-white">
+  <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-24">
     
+    {/* LEFT SIDE */}
+    <div className="max-w-3xl">
+      <p className="mb-3 font-semibold uppercase tracking-wider text-[#14b8a6]">
+        London Drainage Specialists
+      </p>
+
+      <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+        Fast, Reliable
+        <span className="block text-[#14b8a6]">
+          Drainage Solutions
+        </span>
+      </h1>
+
+      <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
+        UK Drain Response provides professional drain unblocking, CCTV surveys,
+        drain jetting and drainage repairs for homes and businesses.
+      </p>
+
+      <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+        <a
+          href="tel:08000000000"
+          className="rounded-lg bg-orange-500 px-7 py-3 text-center font-bold text-white transition hover:bg-orange-600"
+        >
+          Call for Help
+        </a>
+
+        <Link
+          href="/contact"
+          className="rounded-lg border border-white px-7 py-3 text-center font-bold text-white transition hover:bg-white hover:text-[#082f49]"
+        >
+          Request a Quote
+        </Link>
+      </div>
+
+      <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-300">
+        <span>✓ Fast response</span>
+        <span>✓ Clear pricing</span>
+        <span>✓ Domestic & commercial</span>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE - VAN */}
+    <div className="flex items-center justify-center">
+      <div className="overflow-hidden rounded-2xl bg-white/5 p-4">
+        <img
+          src="/images/uk-drain-response-van.webp"
+          alt="UK Drain Response drainage van"
+          className="h-auto w-full"
+          width="1536"
+          height="548"
+        />
+      </div>
+    </div>
+
   </div>
-</div>
-   </div>
-    </section>
+</section> 
 
 <section className="trust-strip" aria-label="UK Drain Response service benefits">
   <div className="container trust-features">
