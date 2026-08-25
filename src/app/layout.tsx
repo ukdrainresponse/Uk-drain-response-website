@@ -3,9 +3,9 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "UK Drain Response | Drainage Services London",
+  title: "UK Drain Response | Drainage Services",
   description:
-    "Fast, professional drainage services across London including drain unblocking, CCTV surveys, jetting and drain repairs.",
+    "Professional drainage services across London, Hertfordshire and Bedfordshire including drain unblocking, CCTV surveys, jetting, repairs and emergency drainage.",
 };
 
 function Logo() {
@@ -34,17 +34,39 @@ export default function RootLayout({
           <div className="container header-inner">
             <Logo />
 
-            <nav className="main-nav" aria-label="Main navigation">
-              <Link href="/">Home</Link>
-              <Link href="/services">Services</Link>
-              <Link href="/areas/london">Areas</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contact">Contact</Link>
-            </nav>
+           <nav className="main-nav" aria-label="Main navigation">
+  <Link href="/">Home</Link>
 
-            <a href="tel:08000000000" className="header-phone">
+  <Link href="/services">Services</Link>
+
+  <div className="nav-dropdown">
+    <button className="nav-dropdown-button" type="button">
+      Areas <span>⌄</span>
+    </button>
+
+    <div className="nav-dropdown-menu">
+      <Link href="/london-drainage">
+        London
+      </Link>
+
+      <Link href="/hertfordshire-drainage">
+        Hertfordshire
+      </Link>
+
+      <Link href="/bedfordshire-drainage">
+        Bedfordshire
+      </Link>
+    </div>
+  </div>
+
+  <Link href="/about">About</Link>
+
+  <Link href="/contact">Contact</Link>
+</nav>
+
+            <a href="tel:08000029910" className="header-phone">
               <small>24/7 RESPONSE</small>
-              <strong>Call us</strong>
+              <strong>0800 002 9910</strong>
             </a>
           </div>
         </header>
@@ -56,32 +78,71 @@ export default function RootLayout({
             <div>
               <Logo />
               <p>
-                Professional drainage services for homes and businesses
-                across London.
+                Professional drainage services for homes, landlords and
+                businesses across London, Hertfordshire and Bedfordshire.
               </p>
             </div>
 
             <div>
               <h3>Services</h3>
+
               <Link href="/drain-unblocking">
                 Drain Unblocking
               </Link>
-              <Link href="/services/cctv-drain-surveys">
+
+              <Link href="/cctv-drain-surveys">
                 CCTV Drain Surveys
               </Link>
-              <Link href="/services/drain-jetting">
+
+              <Link href="/drain-jetting">
                 Drain Jetting
               </Link>
-              <Link href="/services/drain-repairs">
+
+              <Link href="/drain-repairs">
                 Drain Repairs
+              </Link>
+
+              <Link href="/drain-relining">
+                Drain Relining
+              </Link>
+
+              <Link href="/commercial-drainage">
+                Commercial Drainage
+              </Link>
+
+              <Link href="/emergency-drainage">
+                Emergency Drainage
               </Link>
             </div>
 
             <div>
-              <h3>Company</h3>
-              <Link href="/about">About</Link>
-              <Link href="/areas/london">London</Link>
-              <Link href="/contact">Contact</Link>
+              <h3>Areas</h3>
+
+              <Link href="/areas">
+                All Areas
+              </Link>
+
+              <Link href="/london-drainage">
+                London
+              </Link>
+
+              <Link href="/hertfordshire-drainage">
+                Hertfordshire
+              </Link>
+
+              <Link href="/bedfordshire-drainage">
+                Bedfordshire
+              </Link>
+
+              <h3 className="mt-6">Company</h3>
+
+              <Link href="/about">
+                About
+              </Link>
+
+              <Link href="/contact">
+                Contact
+              </Link>
             </div>
           </div>
         </footer>

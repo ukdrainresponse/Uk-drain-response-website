@@ -315,28 +315,45 @@ export default function Home() {
 <section className="location-section">
   <div className="container location-layout">
     <div className="location-copy">
-      <div className="eyebrow">Drainage services across London</div>
+      <div className="eyebrow">Areas we cover</div>
 
-      <h2>Local drainage help across London.</h2>
+      <h2>Drainage services across London and surrounding counties.</h2>
 
       <p>
-        UK Drain Response provides professional drainage services for homes,
-        landlords and businesses across London, including emergency drain
-        unblocking, CCTV surveys, drain jetting and drainage repairs.
+        UK Drain Response provides professional drainage services across
+        London, Hertfordshire and Bedfordshire, including drain unblocking,
+        CCTV surveys, drain jetting, drainage repairs and emergency drainage.
       </p>
 
-      <Link className="button button-primary" href="/areas/london">
+      <Link className="button button-primary" href="/london-drainage">
         Explore London services →
       </Link>
     </div>
 
     <div className="location-links">
-      <Link href="/areas/central-london">Central London <span>→</span></Link>
-      <Link href="/areas/north-london">North London <span>→</span></Link>
-      <Link href="/areas/south-london">South London <span>→</span></Link>
-      <Link href="/areas/east-london">East London <span>→</span></Link>
-      <Link href="/areas/west-london">West London <span>→</span></Link>
-      <Link href="/areas/london">View all London areas <span>→</span></Link>
+      <Link href="/london-drainage">
+        London <span>→</span>
+      </Link>
+
+      <Link href="/hertfordshire-drainage">
+        Hertfordshire <span>→</span>
+      </Link>
+
+      <Link href="/bedfordshire-drainage">
+        Bedfordshire <span>→</span>
+      </Link>
+
+      <Link href="/drain-unblocking">
+        Drain Unblocking <span>→</span>
+      </Link>
+
+      <Link href="/emergency-drainage">
+        Emergency Drainage <span>→</span>
+      </Link>
+
+      <Link href="/contact">
+        Contact UK Drain Response <span>→</span>
+      </Link>
     </div>
   </div>
 </section>
