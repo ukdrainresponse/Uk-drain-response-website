@@ -1,393 +1,526 @@
 import Link from "next/link";
 
-const services = [
-  {
-    title: "Emergency Drain Unblocking",
-    text: "Fast help for blocked drains, toilets, sinks and external drainage problems.",
-    href: "/drain-unblocking",
-    icon: "🚨",
-  },
-  {
-    title: "CCTV Drain Surveys",
-    text: "High-quality CCTV inspections to identify blockages, damage, roots and hidden drainage problems.",
-    href: "/services/cctv-drain-surveys",
-    icon: "◉",
-  },
-  {
-    title: "High Pressure Water Jetting",
-    text: "Powerful drain jetting to clear stubborn blockages, grease, silt and accumulated debris.",
-    href: "/services/drain-jetting",
-    icon: "↯",
-  },
-  {
-    title: "Drain Repairs",
-    text: "Professional repairs for damaged, cracked, collapsed and leaking drainage systems.",
-    href: "/services/drain-repairs",
-    icon: "⚒",
-  },
-  {
-    title: "Drain Relining",
-    text: "Repair suitable damaged pipes without always needing traditional excavation.",
-    href: "/services/drain-relining",
-    icon: "◎",
-  },
-  {
-    title: "Commercial Drainage",
-    text: "Reliable drainage support for commercial properties, landlords and businesses.",
-    href: "/services/commercial-drainage",
-    icon: "▦",
-  },
-];
-
-const benefits = [
-  "Fast response across London",
-  "Experienced drainage professionals",
-  "Clear pricing before work starts",
-  "Domestic and commercial drainage",
-  "CCTV investigation available",
-  "Emergency assistance available",
-];
+export const metadata = {
+  title: "UK Drain Response | Professional Drainage Services",
+  description:
+    "Professional drainage services including drain unblocking, CCTV surveys, drain jetting, repairs and emergency drainage across London, Hertfordshire and Bedfordshire.",
+};
 
 export default function Home() {
   return (
     <main>
-     <section className="bg-[#082f49] text-white">
-  <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-24">
-    
-    {/* LEFT SIDE */}
-    <div className="max-w-3xl">
-      <p className="mb-3 font-semibold uppercase tracking-wider text-[#14b8a6]">
-        London Drainage Specialists
-      </p>
+      {/* HERO */}
+      <section className="bg-[#082f49] text-white">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-24">
+          <div className="max-w-3xl">
+            <p className="mb-3 font-semibold uppercase tracking-wider text-[#14b8a6]">
+              UK Drain Response
+            </p>
 
-      <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-        Fast, Reliable
-        <span className="block text-[#14b8a6]">
-          Drainage Solutions
-        </span>
-      </h1>
+            <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
+              Fast, Professional
+              <span className="block text-[#14b8a6]">
+                Drainage Services
+              </span>
+            </h1>
 
-      <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-        UK Drain Response provides professional drain unblocking, CCTV surveys,
-        drain jetting and drainage repairs for homes and businesses.
-      </p>
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
+              Professional drainage support for homes, landlords and businesses
+              across London, Hertfordshire and Bedfordshire.
+            </p>
 
-      <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-        <a
-          href="tel:08000000000"
-          className="rounded-lg bg-orange-500 px-7 py-3 text-center font-bold text-white transition hover:bg-orange-600"
-        >
-          Call for Help
-        </a>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="tel:08000000000"
+                className="rounded-lg bg-orange-500 px-7 py-3 text-center font-bold text-white transition hover:bg-orange-600"
+              >
+                Call for Help
+              </a>
 
-        <Link
-          href="/contact"
-          className="rounded-lg border border-white px-7 py-3 text-center font-bold text-white transition hover:bg-white hover:text-[#082f49]"
-        >
-          Request a Quote
-        </Link>
-      </div>
+              <Link
+                href="/contact"
+                className="rounded-lg border border-white px-7 py-3 text-center font-bold text-white transition hover:bg-white hover:text-[#082f49]"
+              >
+                Contact Us
+              </Link>
+            </div>
 
-      <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-300">
-        <span>✓ Fast response</span>
-        <span>✓ Clear pricing</span>
-        <span>✓ Domestic & commercial</span>
-      </div>
-    </div>
-
-    {/* RIGHT SIDE - VAN */}
-    <div className="flex items-center justify-center">
-      <div className="overflow-hidden rounded-2xl bg-white/5 p-4">
-        <img
-          src="/images/uk-drain-response-van.webp"
-          alt="UK Drain Response drainage van"
-          className="h-auto w-full"
-          width="1536"
-          height="548"
-        />
-      </div>
-    </div>
-
-  </div>
-</section> 
-
-<section className="trust-strip" aria-label="UK Drain Response service benefits">
-  <div className="container trust-features">
-    <div className="trust-feature">
-      <span className="trust-icon">24/7</span>
-      <div>
-        <strong>Emergency Response</strong>
-        <span>Help when drainage problems can't wait</span>
-      </div>
-    </div>
-
-    <div className="trust-feature">
-      <span className="trust-icon">✓</span>
-      <div>
-        <strong>Professional Service</strong>
-        <span>Clear advice and practical solutions</span>
-      </div>
-    </div>
-    <div className="trust-feature">
-      <span className="trust-icon">⌖</span>
-      <div>
-        <strong>London Coverage</strong>
-        <span>Serving homes and businesses across London</span>
-      </div>
-    </div>
-
-    <div className="trust-feature">
-      <span className="trust-icon">↗</span>
-      <div>
-        <strong>Domestic & Commercial</strong>
-        <span>Drainage support for properties of all sizes</span>
-      </div>
-    </div>
-  </div>
-</section>
-<section className="services-section" id="services">
-  <div className="container">
-    <div className="services-heading">
-      <span className="section-kicker">OUR DRAINAGE SERVICES</span>
-
-      <h2>
-        Drainage problems.
-        <br />
-        <span>Sorted properly.</span>
-      </h2>
-
-      <p>
-        From emergency blockages to CCTV inspections and drain repairs,
-        UK Drain Response provides professional drainage services across London.
-      </p>
-    </div>
-
-    <div className="services-grid">
-      <a href="/drain-unblocking" className="service-card">
-        <div className="service-number">01</div>
-        <div className="service-icon">↘</div>
-        <h3>Blocked Drains</h3>
-        <p>Fast diagnosis and clearance for blocked drains at homes and commercial properties.</p>
-        <span className="service-link">View service →</span>
-      </a>
-
-      <a href="/emergency-drainage" className="service-card featured">
-        <div className="service-number">02</div>
-        <div className="service-icon">24/7</div>
-        <h3>Emergency Drainage</h3>
-        <p>Rapid drainage response when a blockage, overflow or drainage problem cannot wait.</p>
-        <span className="service-link">Get emergency help →</span>
-      </a>
-
-      <a href="/cctv-drain-surveys" className="service-card">
-        <div className="service-number">03</div>
-        <div className="service-icon">◎</div>
-        <h3>CCTV Drain Surveys</h3>
-        <p>Inspect underground drainage and identify blockages, damage and recurring problems.</p>
-        <span className="service-link">View service →</span>
-      </a>
-
-      <a href="/drain-jetting" className="service-card">
-        <div className="service-number">04</div>
-        <div className="service-icon">≋</div>
-        <h3>Drain Jetting</h3>
-        <p>High-pressure water jetting to clear grease, silt and stubborn deposits from drainage systems.</p>
-        <span className="service-link">View service →</span>
-      </a>
-
-      <a href="/drain-repairs" className="service-card">
-        <div className="service-number">05</div>
-        <div className="service-icon">◇</div>
-        <h3>Drain Repairs</h3>
-        <p>Practical repair solutions for cracked, damaged or collapsed drainage systems.</p>
-        <span className="service-link">View service →</span>
-      </a>
-
-      <a href="/commercial-drainage" className="service-card">
-        <div className="service-number">06</div>
-        <div className="service-icon">▦</div>
-        <h3>Commercial Drainage</h3>
-        <p>Responsive drainage services for businesses, landlords and commercial properties.</p>
-        <span className="service-link">View service →</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-{/* Why Choose Us */}
-<section className="why-section">
-  <div className="container">
-    <div className="why-heading">
-      <span className="section-label">WHY UK DRAIN RESPONSE</span>
-
-      <h2>
-        Professional drainage help
-        <br />
-        <span>when you need it.</span>
-      </h2>
-
-      <p>
-        From urgent blockages to planned drainage work, we provide
-        practical solutions for homes and businesses across London.
-      </p>
-    </div>
-
-    <div className="why-grid">
-      <div className="why-card">
-        <div className="why-icon">24/7</div>
-        <h3>24/7 Response</h3>
-        <p>
-          Drainage problems can happen at any time. Our team is available
-          when you need help.
-        </p>
-      </div>
-
-      <div className="why-card">
-        <div className="why-icon">✓</div>
-        <h3>Professional Service</h3>
-        <p>
-          Straightforward advice and practical drainage solutions for
-          domestic and commercial properties.
-        </p>
-      </div>
-
-      <div className="why-card">
-        <div className="why-icon">◎</div>
-        <h3>Specialist Equipment</h3>
-        <p>
-          Professional equipment for drain clearing, CCTV inspections,
-          jetting and drainage repairs.
-        </p>
-      </div>
-
-      <div className="why-card">
-        <div className="why-icon">↗</div>
-        <h3>London Coverage</h3>
-        <p>
-          Serving homes, landlords and businesses across London with a
-          responsive drainage service.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section className="section">
-        <div className="container">
-          <div className="section-heading centered">
-            <div>
-              <div className="eyebrow">How it works</div>
-              <h2>A straightforward approach to drainage.</h2>
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-300">
+              <span>✓ Fast response</span>
+              <span>✓ Clear information</span>
+              <span>✓ Domestic & commercial</span>
             </div>
           </div>
 
-          <div className="steps">
-            <div className="step">
-              <span>01</span>
-              <h3>Tell us the problem</h3>
-              <p>
-                Call or send an enquiry and explain what is happening at the
-                property.
+          <div className="flex items-center justify-center">
+            <div className="overflow-hidden rounded-2xl bg-white/5 p-4">
+              <img
+                src="/images/uk-drain-response-van.webp"
+                alt="UK Drain Response drainage van"
+                className="h-auto w-full"
+                width="1536"
+                height="548"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TRUST STRIP */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl bg-slate-50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-wider text-[#0f766e]">
+                Response
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-slate-900">
+                Emergency Drainage
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Help when drainage problems cannot wait.
               </p>
             </div>
 
-            <div className="step">
-              <span>02</span>
-              <h3>We investigate</h3>
-              <p>
-                Where required, we use professional equipment to identify the
-                cause rather than simply treating the symptoms.
+            <div className="rounded-2xl bg-slate-50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-wider text-[#0f766e]">
+                Service
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-slate-900">
+                Professional Support
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Clear advice and practical drainage solutions.
               </p>
             </div>
 
-            <div className="step">
-              <span>03</span>
-              <h3>We solve it</h3>
-              <p>
-                We explain the recommended solution and get the drainage
-                system working properly again.
+            <div className="rounded-2xl bg-slate-50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-wider text-[#0f766e]">
+                Coverage
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-slate-900">
+                Local Area Pages
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Current coverage across London and nearby counties.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-6">
+              <p className="text-sm font-semibold uppercase tracking-wider text-[#0f766e]">
+                Properties
+              </p>
+              <h3 className="mt-2 text-lg font-bold text-slate-900">
+                Domestic & Commercial
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Drainage support for homes and businesses.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-<section className="location-section">
-  <div className="container location-layout">
-    <div className="location-copy">
-      <div className="eyebrow">Areas we cover</div>
+      {/* INTRO */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="font-semibold text-[#0f766e]">
+                Complete Drainage Support
+              </p>
 
-      <h2>Drainage services across London and surrounding counties.</h2>
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Help With Everyday and Complex Drainage Problems
+              </h2>
 
-      <p>
-        UK Drain Response provides professional drainage services across
-        London, Hertfordshire and Bedfordshire, including drain unblocking,
-        CCTV surveys, drain jetting, drainage repairs and emergency drainage.
-      </p>
+              <p className="mt-6 text-lg leading-8 text-slate-600">
+                From a straightforward blocked drain to recurring drainage
+                faults, damaged pipework and commercial drainage problems, UK
+                Drain Response is built to help customers identify the right
+                solution quickly.
+              </p>
 
-      <Link className="button button-primary" href="/london-drainage">
-        Explore London services →
-      </Link>
-    </div>
+              <p className="mt-4 text-lg leading-8 text-slate-600">
+                Our service pages explain each drainage option clearly, so you
+                can understand what may be required before arranging the next
+                step.
+              </p>
+            </div>
 
-    <div className="location-links">
-      <Link href="/london-drainage">
-        London <span>→</span>
-      </Link>
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <p className="font-semibold text-[#0f766e]">
+                Not Sure What You Need?
+              </p>
 
-      <Link href="/hertfordshire-drainage">
-        Hertfordshire <span>→</span>
-      </Link>
+              <h3 className="mt-2 text-2xl font-bold text-slate-900">
+                Tell Us What Is Happening
+              </h3>
 
-      <Link href="/bedfordshire-drainage">
-        Bedfordshire <span>→</span>
-      </Link>
+              <p className="mt-4 leading-7 text-slate-600">
+                If you are unsure whether you need drain unblocking, CCTV
+                inspection, jetting or repairs, contact UK Drain Response and
+                explain the problem.
+              </p>
 
-      <Link href="/drain-unblocking">
-        Drain Unblocking <span>→</span>
-      </Link>
+              <Link
+                href="/contact"
+                className="mt-5 inline-block font-semibold text-[#0f766e]"
+              >
+                Contact UK Drain Response →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <Link href="/emergency-drainage">
-        Emergency Drainage <span>→</span>
-      </Link>
+      {/* SERVICES */}
+      <section className="bg-white" id="services">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="font-semibold text-[#0f766e]">
+              Our Drainage Services
+            </p>
 
-      <Link href="/contact">
-        Contact UK Drain Response <span>→</span>
-      </Link>
-    </div>
-  </div>
-</section>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Professional Drainage Solutions
+            </h2>
 
-      <section className="final-cta">
-  <div className="container final-cta-inner">
-    <div>
-      <div className="eyebrow eyebrow-light">24/7 drainage response</div>
+            <p className="mt-4 text-lg text-slate-600">
+              Choose the service that best matches the drainage problem you are
+              experiencing.
+            </p>
+          </div>
 
-      <h2>Need a drainage specialist?</h2>
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <Link
+              href="/drain-unblocking"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">🔧</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Drain Unblocking
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Blocked drains, toilets, gullies and slow-running drainage.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                Drain Unblocking →
+              </p>
+            </Link>
 
-      <p>
-        Speak to UK Drain Response for fast, professional drainage help
-        across London.
-      </p>
-    </div>
+            <Link
+              href="/emergency-drainage"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">⚠️</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Emergency Drainage
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Urgent drainage support for overflows and serious blockages.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                Emergency Drainage →
+              </p>
+            </Link>
 
-    <div className="final-cta-actions">
-      <a
-        className="button button-orange"
-        href="tel:08000000000"
-      >
-        Call now →
-      </a>
+            <Link
+              href="/cctv-drain-surveys"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">📹</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                CCTV Drain Surveys
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Camera inspections for recurring drainage faults and pipe
+                damage.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                CCTV Surveys →
+              </p>
+            </Link>
 
-      <Link
-        className="button button-outline-light"
-        href="/contact"
-      >
-        Request a quote
-      </Link>
-    </div>
-  </div>
-</section>
+            <Link
+              href="/drain-jetting"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">💧</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Drain Jetting
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                High-pressure jetting for grease, silt, debris and stubborn
+                deposits.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                Drain Jetting →
+              </p>
+            </Link>
+
+            <Link
+              href="/drain-repairs"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">🛠️</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Drain Repairs
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Repair solutions for cracked, displaced and damaged drainage.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                Drain Repairs →
+              </p>
+            </Link>
+
+            <Link
+              href="/commercial-drainage"
+              className="rounded-2xl bg-slate-50 p-8 transition hover:shadow-md"
+            >
+              <div className="mb-5 text-4xl">🏢</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Commercial Drainage
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage support for businesses, landlords and commercial
+                properties.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                Commercial Drainage →
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link
+              href="/services"
+              className="inline-block rounded-lg bg-orange-500 px-7 py-3 font-bold text-white transition hover:bg-orange-600"
+            >
+              View All Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* WHY CHOOSE US */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="font-semibold text-[#0f766e]">
+              Why UK Drain Response
+            </p>
+
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              A Straightforward Approach to Drainage
+            </h2>
+
+            <p className="mt-4 text-lg text-slate-600">
+              Clear information, practical solutions and a simple process from
+              enquiry to resolution.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <div className="mb-5 text-4xl">⚡</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Fast Response
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage problems can quickly become disruptive, so speed
+                matters.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <div className="mb-5 text-4xl">✓</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Clear Information
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Understand which drainage service is likely to be required.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <div className="mb-5 text-4xl">🔎</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Proper Investigation
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                CCTV and specialist equipment can help identify the actual
+                cause of a problem.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <div className="mb-5 text-4xl">🏠</div>
+              <h3 className="text-xl font-bold text-slate-900">
+                Homes & Businesses
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage support for domestic and commercial properties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="font-semibold text-[#0f766e]">
+              How It Works
+            </p>
+
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Three Simple Steps
+            </h2>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="rounded-2xl bg-slate-50 p-8">
+              <p className="text-sm font-bold text-[#0f766e]">01</p>
+              <h3 className="mt-3 text-xl font-bold text-slate-900">
+                Tell Us the Problem
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Contact us and explain what is happening at the property.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-8">
+              <p className="text-sm font-bold text-[#0f766e]">02</p>
+              <h3 className="mt-3 text-xl font-bold text-slate-900">
+                Investigate
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Where required, the drainage system can be investigated to
+                identify the cause.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-slate-50 p-8">
+              <p className="text-sm font-bold text-[#0f766e]">03</p>
+              <h3 className="mt-3 text-xl font-bold text-slate-900">
+                Solve the Problem
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                The appropriate drainage solution can then be carried out.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AREAS */}
+      <section className="bg-slate-50">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="font-semibold text-[#0f766e]">
+              Areas We Cover
+            </p>
+
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              Drainage Services Across Our Current Coverage Area
+            </h2>
+
+            <p className="mt-4 text-lg text-slate-600">
+              Select your area to view local drainage information.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <Link
+              href="/london-drainage"
+              className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md"
+            >
+              <p className="font-semibold text-[#0f766e]">
+                Greater London
+              </p>
+              <h3 className="mt-2 text-2xl font-bold text-slate-900">
+                London
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage services across Central, North, South, East and West
+                London.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                View London →
+              </p>
+            </Link>
+
+            <Link
+              href="/hertfordshire-drainage"
+              className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md"
+            >
+              <p className="font-semibold text-[#0f766e]">
+                County Coverage
+              </p>
+              <h3 className="mt-2 text-2xl font-bold text-slate-900">
+                Hertfordshire
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage services across Hertfordshire and surrounding areas.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                View Hertfordshire →
+              </p>
+            </Link>
+
+            <Link
+              href="/bedfordshire-drainage"
+              className="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md"
+            >
+              <p className="font-semibold text-[#0f766e]">
+                County Coverage
+              </p>
+              <h3 className="mt-2 text-2xl font-bold text-slate-900">
+                Bedfordshire
+              </h3>
+              <p className="mt-4 leading-7 text-slate-600">
+                Drainage services across Bedfordshire and surrounding areas.
+              </p>
+              <p className="mt-5 font-semibold text-[#0f766e]">
+                View Bedfordshire →
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="bg-[#082f49]">
+        <div className="mx-auto max-w-7xl px-6 py-16 text-center lg:px-8">
+          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+            Need Help With a Drainage Problem?
+          </h2>
+
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-200">
+            Contact UK Drain Response and tell us what problem you are
+            experiencing.
+          </p>
+
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <a
+              href="tel:08000000000"
+              className="rounded-lg bg-orange-500 px-7 py-3 font-bold text-white transition hover:bg-orange-600"
+            >
+              Call for Help
+            </a>
+
+            <Link
+              href="/contact"
+              className="rounded-lg border border-white px-7 py-3 font-bold text-white transition hover:bg-white hover:text-[#082f49]"
+            >
+              Contact Us
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
