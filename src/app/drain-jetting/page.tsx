@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drain Jetting | UK Drain Response",
   description:
     "Professional high-pressure drain jetting from UK Drain Response for stubborn blockages, grease, silt and debris.",
+    alternates: {
+  canonical: "/drain-jetting",
+},
 };
 
 export default function DrainJettingPage() {

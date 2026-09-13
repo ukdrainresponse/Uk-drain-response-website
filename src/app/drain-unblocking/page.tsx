@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drain Unblocking | UK Drain Response",
   description:
     "Fast, reliable drain unblocking from UK Drain Response for blocked toilets, sinks, gullies and underground drains.",
+      alternates: {
+    canonical: "/drain-unblocking",
+  },
 };
 
 export default function DrainUnblockingPage() {

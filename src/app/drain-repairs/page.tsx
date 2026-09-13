@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drain Repairs | UK Drain Response",
   description:
     "Professional drain repair services from UK Drain Response. We diagnose and repair cracked, damaged and collapsed drains with fast, reliable service.",
+    alternates: {
+  canonical: "/drain-repairs",
+},
 };
 
 export default function DrainRepairsPage() {

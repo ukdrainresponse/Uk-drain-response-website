@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drain Relining | UK Drain Response",
   description:
     "Professional drain relining services from UK Drain Response. Repair cracked and damaged drains from inside the pipe with minimal disruption.",
+    alternates: {
+  canonical: "/drain-relining",
+},
 };
 
 export default function DrainReliningPage() {

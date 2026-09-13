@@ -4,6 +4,10 @@ import MobileMenu from "./MobileMenu";
 import "./globals.css";
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://www.ukdrainresponse.co.uk"),
+      alternates: {
+    canonical: "/",
+  },
   title: "UK Drain Response | Drainage Services",
   description:
     "Professional drainage services across London, Hertfordshire and Bedfordshire including drain unblocking, CCTV surveys, jetting, repairs and emergency drainage.",

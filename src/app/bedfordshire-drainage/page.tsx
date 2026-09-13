@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drainage Services Bedfordshire | UK Drain Response",
   description:
     "Professional drainage services across Bedfordshire including drain unblocking, CCTV surveys, drain jetting, drain repairs, relining and emergency drainage.",
+    alternates: {
+  canonical: "/bedfordshire-drainage",
+},
 };
 
 export default function BedfordshireDrainagePage() {

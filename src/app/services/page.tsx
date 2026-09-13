@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drainage Services | UK Drain Response",
   description:
     "Professional drainage services including drain unblocking, CCTV surveys, drain jetting, repairs, relining and commercial drainage.",
+    alternates: {
+  canonical: "/services",
+},
 };
 
 export default function ServicesPage() {

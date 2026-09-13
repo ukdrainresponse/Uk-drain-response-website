@@ -4,6 +4,9 @@ export const metadata = {
   title: "CCTV Drain Surveys | UK Drain Response",
   description:
     "Professional CCTV drain surveys from UK Drain Response. Inspect underground drainage, locate damage and identify recurring drainage problems.",
+    alternates: {
+  canonical: "/cctv-drain-surveys",
+},
 };
 
 export default function CCTVDrainSurveysPage() {

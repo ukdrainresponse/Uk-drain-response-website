@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drainage Services London | UK Drain Response",
   description:
     "Professional drainage services across London including drain unblocking, CCTV surveys, drain jetting, drain repairs, relining and emergency drainage.",
+    alternates: {
+  canonical: "/london-drainage",
+},
 };
 
 export default function LondonDrainagePage() {

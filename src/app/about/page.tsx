@@ -4,6 +4,9 @@ export const metadata = {
   title: "About UK Drain Response | Professional Drainage Services",
   description:
     "Learn more about UK Drain Response and our professional drainage services for homes, landlords and businesses across London, Hertfordshire and Bedfordshire.",
+    alternates: {
+  canonical: "/about",
+},
 };
 
 export default function AboutPage() {

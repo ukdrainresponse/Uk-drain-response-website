@@ -4,6 +4,9 @@ export const metadata = {
   title: "Commercial Drainage | UK Drain Response",
   description:
     "Commercial drainage services from UK Drain Response for businesses, landlords, property managers and commercial premises.",
+    alternates: {
+  canonical: "/commercial-drainage",
+},
 };
 
 export default function CommercialDrainagePage() {

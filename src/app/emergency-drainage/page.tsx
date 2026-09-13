@@ -4,6 +4,9 @@ export const metadata = {
   title: "Emergency Drainage | UK Drain Response",
   description:
     "Fast emergency drainage response from UK Drain Response for blocked, overflowing and urgent drainage problems.",
+    alternates: {
+  canonical: "/emergency-drainage",
+},
 };
 
 export default function EmergencyDrainagePage() {

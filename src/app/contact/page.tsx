@@ -4,6 +4,9 @@ export const metadata = {
   title: "Contact UK Drain Response | Drainage Help",
   description:
     "Contact UK Drain Response for professional drainage help across London, Hertfordshire and Bedfordshire.",
+    alternates: {
+  canonical: "/contact",
+},
 };
 
 export default function ContactPage() {

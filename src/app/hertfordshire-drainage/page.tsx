@@ -4,6 +4,9 @@ export const metadata = {
   title: "Drainage Services Hertfordshire | UK Drain Response",
   description:
     "Professional drainage services across Hertfordshire including drain unblocking, CCTV surveys, drain jetting, drain repairs, relining and emergency drainage.",
+    alternates: {
+  canonical: "/hertfordshire-drainage",
+},
 };
 
 export default function HertfordshireDrainagePage() {
